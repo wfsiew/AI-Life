@@ -1,0 +1,13 @@
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\bin\Debug\AI Life.exe.config
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\bin\Debug\AI Life.exe.manifest
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\bin\Debug\AI Life.application
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\bin\Debug\AI Life.exe
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\bin\Debug\AI Life.pdb
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI_Life.AboutBox.resources
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI_Life.MainForm.resources
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI_Life.Properties.Resources.resources
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.csproj.GenerateResource.Cache
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.exe.manifest
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.application
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.exe
+C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.pdb
