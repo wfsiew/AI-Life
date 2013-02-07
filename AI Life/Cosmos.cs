@@ -256,7 +256,7 @@ namespace AI_Life
             //replace and leave the other to GC
             ants = newAnts;
         }
-        
+
         //if ants were aligned in a line, this method will take the best ones,
         //place them on one end the the worst ones on the other, and leave other
         //untouched

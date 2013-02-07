@@ -209,7 +209,7 @@ namespace AI_Life
         {
             get { return mass; }
             set { mass = value; }
-        } 
+        }
         #endregion
 
         //=========================================================//

@@ -11,3 +11,16 @@ C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.exe.man
 C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.application
 C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.exe
 C:\Users\wfsiew\Desktop\AI_Life_Source\AI Life\AI Life\obj\Debug\AI Life.pdb
+E:\vs_Projects\AI Life\AI Life\bin\Debug\AI Life.exe.config
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI Life.exe
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI Life.pdb
+E:\vs_Projects\AI Life\AI Life\bin\Debug\AI Life.exe.manifest
+E:\vs_Projects\AI Life\AI Life\bin\Debug\AI Life.application
+E:\vs_Projects\AI Life\AI Life\bin\Debug\AI Life.exe
+E:\vs_Projects\AI Life\AI Life\bin\Debug\AI Life.pdb
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI_Life.AboutBox.resources
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI_Life.MainForm.resources
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI_Life.Properties.Resources.resources
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI Life.csproj.GenerateResource.Cache
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI Life.exe.manifest
+E:\vs_Projects\AI Life\AI Life\obj\Debug\AI Life.application

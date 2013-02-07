@@ -23,11 +23,11 @@ namespace AI_Life
         }
 
         //Flee is the opposite of seek. Instead of producing a steering force to steer the agent toward a target position, flee creates a force that steers the agent away. 
-        public static Vector2 Flee(Graphics g,ref Vector2 targetPosition, ref Vector2 currentPosition, ref Vector2 Velocity, int max_speed, int FOV,int vehicleNo)
+        public static Vector2 Flee(Graphics g, ref Vector2 targetPosition, ref Vector2 currentPosition, ref Vector2 Velocity, int max_speed, int FOV, int vehicleNo)
         {
-            if (mainForm.steeringBehaviour != SB.CF && mainForm.steeringBehaviour != SB.FCS && mainForm.steeringBehaviour != SB.FCAS && vehicleNo ==1)
+            if (mainForm.steeringBehaviour != SB.CF && mainForm.steeringBehaviour != SB.FCS && mainForm.steeringBehaviour != SB.FCAS && vehicleNo == 1)
             {
-                g.DrawEllipse(Pens.Red, new RectangleF(new PointF(targetPosition.X - FOV, targetPosition.Y - FOV), new SizeF(FOV*2, FOV*2)));
+                g.DrawEllipse(Pens.Red, new RectangleF(new PointF(targetPosition.X - FOV, targetPosition.Y - FOV), new SizeF(FOV * 2, FOV * 2)));
             }
             if (Vector2.Length(Vector2.Subtract(targetPosition, currentPosition)) > FOV)
             {
@@ -43,7 +43,7 @@ namespace AI_Life
         //Seek is useful for getting an agent moving in the right direction, but often you'll want your agents
         //to come to a gentle halt at the target position, and as you've seen, seek is not too great at stopping gracefully.
         //Arrive is a behavior that steers the agent in such a way it decelerates onto the target position.
-        public static Vector2 Arrive(Graphics g,ref Vector2 targetPosition,ref Vector2 currentPosition,ref Vector2 Velocity, int arriveRadius, int max_speed,int vehicleNo)
+        public static Vector2 Arrive(Graphics g, ref Vector2 targetPosition, ref Vector2 currentPosition, ref Vector2 Velocity, int arriveRadius, int max_speed, int vehicleNo)
         {
             if (vehicleNo == 1)
             {
@@ -55,7 +55,7 @@ namespace AI_Life
             {
                 double speed = max_speed * (distance / arriveRadius);
                 speed = Math.Min(speed, max_speed);
-                Vector2 desired_V = toTarget * (float)(speed/distance);
+                Vector2 desired_V = toTarget * (float)(speed / distance);
                 return Vector2.Subtract(desired_V, Velocity);
             }
             return new Vector2(0, 0);
@@ -97,19 +97,19 @@ namespace AI_Life
             {
                 targetPosition = new Vector2(pathPoints[nextPathPoint].X, pathPoints[nextPathPoint].Y);
                 ++currentPathPoint;
-                return Seek(ref targetPosition, ref currentPosition, ref Velocity,max_speed);
+                return Seek(ref targetPosition, ref currentPosition, ref Velocity, max_speed);
             }
             else
             {
                 targetPosition = new Vector2(pathPoints[currentPathPoint].X, pathPoints[currentPathPoint].Y);
                 //currentPathPoint++;
-                return Seek(ref targetPosition, ref currentPosition, ref Velocity,max_speed);
+                return Seek(ref targetPosition, ref currentPosition, ref Velocity, max_speed);
             }
         }
 
         //Cohesion produces a steering force that moves a vehicle toward the center of mass of its neighbors
         //A sheep running after its flock is demonstrating cohesive behavior. Use this force to keep a group of vehicles together.
-        public static Vector2 Cohesion(ref Vehicle[] allCars,Vehicle me,Vector2 currentPosition, Vector2 velocity, int max_speed, int cohesionRadius)
+        public static Vector2 Cohesion(ref Vehicle[] allCars, Vehicle me, Vector2 currentPosition, Vector2 velocity, int max_speed, int cohesionRadius)
         {
             int j = 0;
             Vector2 averagePosition = new Vector2(0);

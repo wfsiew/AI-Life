@@ -55,7 +55,7 @@ namespace AI_Life
             context = new BufferedGraphicsContext();
         }
 
-        
+
         //main title
         private void DrawTitle()
         {
@@ -550,7 +550,7 @@ namespace AI_Life
         private void specialPathsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Vehicle.enableSpecialPath = !Vehicle.enableSpecialPath;
-        } 
+        }
         #endregion
     }
 }

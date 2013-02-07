@@ -103,7 +103,7 @@ namespace AI_Life
         public double[] FeedData(double[] input)
         {
             double[] curInput;
-            double[] curOutput ={ };
+            double[] curOutput = { };
             int i, j, k;
             double netInput;
 
